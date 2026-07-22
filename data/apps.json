@@ -1,0 +1,41 @@
+[
+  {
+    "id": "1",
+    "name": "Firefox Browser",
+    "developer": "Mozilla",
+    "category": "Browser",
+    "version": "128.0",
+    "size": "85 MB",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg",
+    "description": "Firefox is a fast, private and open-source web browser.",
+    "download_url": "https://ftp.mozilla.org/pub/fenix/",
+    "isLatest": true,
+    "isPopular": true
+  },
+  {
+    "id": "2",
+    "name": "VLC for Android",
+    "developer": "VideoLAN",
+    "category": "Video Players",
+    "version": "3.5.4",
+    "size": "32 MB",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e6/VLC_Icon.svg",
+    "description": "VLC for Android is the best open source video and audio player.",
+    "download_url": "https://get.videolan.org/vlc-android/",
+    "isLatest": false,
+    "isPopular": true
+  },
+  {
+    "id": "3",
+    "name": "Brave Browser",
+    "developer": "Brave Software",
+    "category": "Browser",
+    "version": "1.65",
+    "size": "95 MB",
+    "icon": "https://api.iconify.design/logos:brave.svg",
+    "description": "Fast, Private & Secure Web Browser with AdBlocker.",
+    "download_url": "https://github.com/brave/brave-browser/releases",
+    "isLatest": true,
+    "isPopular": true
+  }
+]

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APKStore - Official & Open Source Apps</title>
+    <meta name="description" content="Download safe, legal, official, and open-source Android APKs for free.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo-container">
+            <i class="fa-solid fa-cube logo-icon"></i>
+            <span class="logo-text">APK<span>Hub</span></span>
+        </div>
+        
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="searchInput" placeholder="Search apps, categories..." onkeyup="searchApps()">
+        </div>
+
+        <button id="themeToggle" class="theme-btn" onclick="toggleTheme()">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-card 3d-card">
+            <h1>Safe & Open Source Android Apps</h1>
+            <p>100% Free, Official & Secure Downloads</p>
+        </div>
+    </section>
+
+    <div class="ad-space">
+        <span>Ad Space</span>
+    </div>
+
+    <section class="categories-section">
+        <h3>Categories</h3>
+        <div class="category-list" id="categoryList">
+            <button class="cat-btn active" onclick="filterCategory('All')">All</button>
+            <button class="cat-btn" onclick="filterCategory('Browser')">Browser</button>
+            <button class="cat-btn" onclick="filterCategory('Video Players')">Video Players</button>
+            <button class="cat-btn" onclick="filterCategory('Communication')">Communication</button>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="app-section">
+            <h2 class="section-title"><i class="fa-solid fa-fire"></i> Popular Apps</h2>
+            <div class="apps-grid" id="popularApps"></div>
+        </section>
+
+        <section class="app-section">
+            <h2 class="section-title"><i class="fa-solid fa-clock"></i> Latest Apps</h2>
+            <div class="apps-grid" id="latestApps"></div>
+        </section>
+    </main>
+
+    <div id="appModal" class="modal">
+        <div class="modal-content 3d-modal">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="modalDetails"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="policy.html">About</a> | 
+            <a href="policy.html">Privacy Policy</a> | 
+            <a href="policy.html">DMCA</a> | 
+            <a href="policy.html">Contact</a> | 
+            <a href="policy.html">Terms</a>
+        </div>
+        <p>&copy; 2026 APKHub. Official & Open Source App Directory.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
