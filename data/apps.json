@@ -37,5 +37,44 @@
     "download_url": "https://github.com/brave/brave-browser/releases",
     "isLatest": true,
     "isPopular": true
+  },
+  {
+    "id": "4",
+    "name": "WhatsApp Messenger",
+    "developer": "Meta",
+    "category": "Communication",
+    "version": "2.24.12",
+    "size": "45 MB",
+    "icon": "https://api.iconify.design/logos:whatsapp-icon.svg",
+    "description": "Simple, reliable, private messaging and calling app.",
+    "download_url": "https://www.whatsapp.com/android/",
+    "isLatest": true,
+    "isPopular": true
+  },
+  {
+    "id": "5",
+    "name": "Telegram",
+    "developer": "Telegram FZ-LLC",
+    "category": "Communication",
+    "version": "10.11",
+    "size": "60 MB",
+    "icon": "https://api.iconify.design/logos:telegram.svg",
+    "description": "Pure instant messaging — simple, fast, secure, and synced across all your devices.",
+    "download_url": "https://telegram.org/android",
+    "isLatest": true,
+    "isPopular": false
+  },
+  {
+    "id": "6",
+    "name": "Spotify",
+    "developer": "Spotify AB",
+    "category": "Video Players",
+    "version": "8.9.30",
+    "size": "40 MB",
+    "icon": "https://api.iconify.design/logos:spotify-icon.svg",
+    "description": "Music and Podcasts app for listening to millions of songs.",
+    "download_url": "https://www.spotify.com/download/android/",
+    "isLatest": true,
+    "isPopular": true
   }
 ]
